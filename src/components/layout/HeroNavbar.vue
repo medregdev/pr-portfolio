@@ -38,22 +38,15 @@
           <Icon v-else icon="line-md:sunny-outline" class="text-5xl text-secondary" />
         </button>
 
-        <div>
-          <div
+        <button class="text-white ml-20 z-10 hidden md:block">
+          <Icon
+            icon="circle-flags:kh"
+            class="text-5xl"
             v-if="$i18n.locale === 'en'"
             @click="changeLanguage('khm')"
-            class="hover:cursor-pointer bg-blue-500 rounded-3xl px-3 py-2 text-white hover:bg-blue-300"
-          >
-            ខ្មែរ
-          </div>
-          <div
-            v-else
-            @click="changeLanguage('en')"
-            class="hover:cursor-pointer bg-blue-500 rounded-3xl px-3 py-2 text-white hover:bg-blue-300"
-          >
-            English
-          </div>
-        </div>
+          />
+          <Icon icon="circle-flags:gb" class="text-5xl" v-else @click="changeLanguage('en')" />
+        </button>
       </nav>
     </div>
   </header>
