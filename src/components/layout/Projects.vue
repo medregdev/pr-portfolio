@@ -70,7 +70,7 @@ const projects = ref([
     description: 'A personal portfolio website to showcase my skills and projects.',
     // image: '/project03.jpg',
 
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project04.jpg', import.meta.url).href,
 
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
@@ -79,7 +79,7 @@ const projects = ref([
   {
     title: 'Porfolio Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project01.jpg', import.meta.url).href,
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
     codeLink: '/',
@@ -87,7 +87,7 @@ const projects = ref([
   {
     title: 'hospital Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project02.jpg', import.meta.url).href,
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
     codeLink: '/',
@@ -103,7 +103,7 @@ const projects = ref([
   {
     title: 'Porfolio Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project01.jpg', import.meta.url).href,
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
     codeLink: '/',
@@ -111,7 +111,7 @@ const projects = ref([
   {
     title: 'hospital Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project02.jpg', import.meta.url).href,
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
     codeLink: '/',
@@ -127,7 +127,7 @@ const projects = ref([
   {
     title: 'Porfolio Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project04.jpg', import.meta.url).href,
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
     codeLink: '/',
@@ -143,7 +143,7 @@ const projects = ref([
   {
     title: 'Porfolio Website',
     description: 'A personal portfolio website to showcase my skills and projects.',
-    image: new URL('@/assets/images/project03.jpg', import.meta.url).href,
+    image: new URL('@/assets/images/project02.jpg', import.meta.url).href,
     tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Tailwind CSS'],
     liveLink: '/',
     codeLink: '/',
