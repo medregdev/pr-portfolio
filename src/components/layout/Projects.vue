@@ -29,7 +29,7 @@
       <swiper-slide class="max-w-[300px]" v-for="(project, index) in projects" :key="index">
         <ProjectCard
           :title="project.title"
-          :image="'src/assets/images' + project.image"
+          :image="'@/assets/images' + project.image"
           :description="project.description"
           :tags="project.tags"
           :liveLink="project.liveLink"
