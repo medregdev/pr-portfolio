@@ -1,8 +1,7 @@
 <template>
   <section
-    data-aos="zoom-in"
-    class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0"
-  >
+   data-aos="zoom-in"
+   class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0">
     <header
       class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#000c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] left-10 top-0 hidden md:block"
     ></header>
@@ -13,10 +12,10 @@
     <main class="absolute grid lg:grid-cols-2 grid-cols-1 items-center p-2 lg:p-8">
       <header class="text-center lg:text-left">
         <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold">
-          👋 {{ $t('Hi') }}, {{ $t('I_M') }}
-          <span class="text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary">{{
-            $t('Panharith')
-          }}</span>
+          👋 {{$t('Hi')}}, {{$t("I_M")}}
+          <span class="text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary"
+            >{{$t('Panharith')}}</span
+          >
         </h1>
         <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe recusandae eaque ex hic
@@ -34,11 +33,14 @@
           </a>
         </div>
       </header>
-      <aside
-        class="container flex justify-center lg:justify-end mt-20 lg:mt-0 items-center flex-wrap"
-      >
+      <aside class="container flex justify-center lg:justify-end mt-20 lg:mt-0 items-center flex-wrap">
         <figure
-          class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px]"
+          class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] 
+          md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px] before:border-[25px]
+
+          
+          before:border-primary  before:shadow-[7px_7px_21px_primary,_-7px_-7px_21px_primary] 
+          dark:before:border-secondary dark:before:shadow-[7px_7px_21px_secondary,_-7px_-7px_21px_secondary]"
         >
           <div
             class="relative w-full h-full bg-cover transform translate-x-[10px] translate-y-[10px]"

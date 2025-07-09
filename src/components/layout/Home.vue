@@ -39,6 +39,5 @@ const Navbar = defineAsyncComponent(() => import('@/components/layout/HeroNavbar
 const Footer = defineAsyncComponent(() => import('@/components/layout/Footer.vue'))
 const BackToTop = defineAsyncComponent(() => import('@/components/layout/BackToTop.vue'))
 import LoadingSpinner from '@/components/layout/LoadingSpinner.vue'
-
 </script>
 
