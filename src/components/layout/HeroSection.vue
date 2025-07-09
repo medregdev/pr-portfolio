@@ -46,7 +46,7 @@
             class="relative w-full h-full bg-cover transform translate-x-[10px] translate-y-[10px]"
           >
             <img
-              src="@/assets/images/hero_picture.jpg"
+              src="@/assets/images/heropicture.JPG"
               alt="Hero Picture"
               class="min-w-1/2"
               loading="lazy"
