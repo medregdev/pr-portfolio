@@ -29,7 +29,7 @@
               class="block transition ease-linear md:text-lg lg:text-xl font-bold text-white md:text-primary hover:text-secondary dark:text-white dark:hover:text-secondary"
               @click="scrollToSection(item.href)"
             >
-              {{ item.name }}
+              {{ $t(item.name) }}
             </a>
           </li>
         </ul>
@@ -37,6 +37,23 @@
           <Icon v-if="!isDarkMode" icon="line-md:moon-filled" class="text-5xl text-primary" />
           <Icon v-else icon="line-md:sunny-outline" class="text-5xl text-secondary" />
         </button>
+
+        <div>
+          <div
+            v-if="$i18n.locale === 'en'"
+            @click="changeLanguage('khm')"
+            class="hover:cursor-pointer bg-blue-500 rounded-3xl px-3 py-2 text-white hover:bg-blue-300"
+          >
+            ខ្មែរ
+          </div>
+          <div
+            v-else
+            @click="changeLanguage('en')"
+            class="hover:cursor-pointer bg-blue-500 rounded-3xl px-3 py-2 text-white hover:bg-blue-300"
+          >
+            English
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -47,7 +64,7 @@ const isMenuOpen = ref(false)
 const Menu = ref([
   { name: 'Service', href: '#services' },
   { name: 'Skills', href: '#skills' },
-  { name: 'Why Me', href: '#whyme' },
+  { name: 'WhyMe', href: '#whyme' },
   { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '#contact' },
 ])
@@ -72,5 +89,14 @@ const toggleDarkMode = () => {
   }
   // Update the dark mode state
   isDarkMode.value = !isDarkMode.value
+}
+</script>
+<script>
+export default {
+  methods: {
+    changeLanguage(lang) {
+      this.$i18n.locale = lang
+    },
+  },
 }
 </script>

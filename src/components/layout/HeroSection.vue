@@ -12,9 +12,9 @@
     <main class="absolute grid lg:grid-cols-2 grid-cols-1 items-center p-2 lg:p-8">
       <header class="text-center lg:text-left">
         <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold">
-          👋 Hi, I'm
+          👋 {{$t('Hi')}}, {{$t("I_M")}}
           <span class="text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary"
-            >Panharith</span
+            >{{$t('Panharith')}}</span
           >
         </h1>
         <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
