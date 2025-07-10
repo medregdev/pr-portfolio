@@ -9,7 +9,7 @@
           :key="index"
           :class="`mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t ${skill.bgGradient}`"
         >
-          <div class="rounded-[12px] bg-primary mt-[3px] p-12 md:p-5 text-center">
+          <div class="rounded-[12px] bg-primary mt-[3px] p-10 sm:p-12 md:p-5 text-center">
             <h3 class="font-bold text-[35px] text-white flex items-center justify-center">
               <Countup
                 v-if="visibleItems[index]"
