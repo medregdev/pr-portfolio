@@ -16,9 +16,13 @@
                 :endVal="skill.percentage"
                 :startVal="0"
                 :duration="2"
-              /> %
+              />
+              %
             </h3>
-            <p class="font-normal text-[16px]" :style="{ color: skill.textColor }">
+            <p
+              class="font-normal text-[13px] sm:text-[16px] w-20 sm:w-30"
+              :style="{ color: skill.textColor }"
+            >
               {{ skill.title }}
             </p>
           </div>

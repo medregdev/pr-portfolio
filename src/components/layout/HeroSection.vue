@@ -35,7 +35,7 @@
         </div>
       </header>
       <aside
-        class="container flex justify-center lg:justify-end mt-20 lg:mt-0 items-center flex-wrap"
+        class="container flex justify-center lg:justify-end mt-20 lg:mt-[-300px] items-center flex-wrap"
       >
         <figure
           class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px]"
@@ -44,7 +44,7 @@
             class="relative w-full h-full bg-cover transform translate-x-[10px] translate-y-[10px]"
           >
             <img
-              src="@/assets/images/heropicture.JPG"
+              src="@/assets/images/heropicture.png"
               alt="Hero Picture"
               class="min-w-1/2"
               loading="lazy"

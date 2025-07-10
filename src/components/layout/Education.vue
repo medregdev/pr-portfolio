@@ -1,5 +1,5 @@
 <template>
-  <section class="p-16">
+  <section class="lg:p-16">
     <header class="text-center">
       <h3 class="text-4xl font-bold text-primary dark:text-white">Education</h3>
     </header>
