@@ -20,7 +20,7 @@
               %
             </h3>
             <p
-              class="font-normal text-[12px] sm:text-[16px] w-18 sm:w-25"
+              class="font-normal text-[12px] sm:text-[16px] w-[72px] sm:w-auto"
               :style="{ color: skill.textColor }"
             >
               {{ skill.title }}
